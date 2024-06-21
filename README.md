@@ -26,6 +26,8 @@ This project utilizes the K-means clustering algorithm to detect and recognize d
 
 ```bash
 git clone https://github.com/yourusername/Color-Recognition.git
+```
+```bash
 cd Color-Recognition
 ```
 
@@ -33,15 +35,17 @@ cd Color-Recognition
 To start the FastAPI server
 ```bash
 cd app
+```
+```bash
 uvicorn main:app --host 0.0.0.0 --port 8080
 ```
-
 ### Docker Deployment
 To build and run the Docker container, follow these steps:
 
 ```bash
 docker build -t color-recognition
+```
+```bash
 docker run -d -p 8000:8000 color-recognition
 ```
-
 
