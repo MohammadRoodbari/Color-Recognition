@@ -8,10 +8,6 @@ Welcome to the **Color-Recognition** project! This project utilizes the K-means 
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Docker Deployment](#docker-deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -41,7 +37,7 @@ git clone https://github.com/yourusername/Color-Recognition.git
 cd Color-Recognition
 ```
 
-## Installation
+## Usage
 To start the FastAPI server
 ```bash
 cd app
