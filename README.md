@@ -5,23 +5,15 @@ This project utilizes the K-means clustering algorithm to detect and recognize d
 ## Table of Contents
 
 - [Features](#features)
-- [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
 
 ## Features
 
-- **Color Detection**: Detects and identifies Red, Green, Yellow, Blue, White, Black, and Gray colors in images.
-- **K-means Clustering**: Uses the K-means algorithm to cluster and identify colors.
-- **FastAPI**: Provides a fast and efficient API for color recognition.
-- **Dockerized**: Easily deployable with Docker.
-
-## Technologies
-
-- **Python**: The programming language used for developing the application.
-- **K-means Clustering**: Algorithm used for color recognition.
-- **FastAPI**: Web framework used for building the API.
-- **Docker**: Containerization tool used for deployment.
+- **Color Detection**
+- **K-means Clustering**
+- **FastAPI**
+- **Dockerized**
 
 ## Installation
 
