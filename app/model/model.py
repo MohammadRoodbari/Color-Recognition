@@ -2,20 +2,6 @@ from sklearn.cluster import KMeans
 import numpy as np
 from collections import Counter
 
-# __version__ = "0.1.0"
-
-# BASE_DIR = Path(__file__).resolve(strict=True).parent
-
-# with open(f"{BASE_DIR}/trained_pipeline-{__version__}.pkl", "rb") as f:
-#     model = pickle.load(f)
-
-
-
-
-import warnings
-warnings.filterwarnings("ignore")
-
-
 def crop_image(image):
     width, height = image.size
     crop_width = int(width * 0.10)
