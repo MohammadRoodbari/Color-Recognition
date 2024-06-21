@@ -28,8 +28,6 @@ def check_color(given_rgb):
         'Green': np.array([0, 255, 0]),
         'Blue': np.array([0, 0, 255]),
         'Yellow': np.array([255, 255, 0]),
-        # 'Cyan': np.array([0, 255, 255]),
-        # 'Magenta': np.array([255, 0, 255]),
         'White': np.array([255, 255, 255]),
         'Black': np.array([0, 0, 0]),
         # 'Gray': np.array([128, 128, 128]),
