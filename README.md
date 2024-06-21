@@ -1,6 +1,6 @@
 # Color-Recognition
 
-Welcome to the **Color-Recognition** project! This project utilizes the K-means clustering algorithm to detect and recognize specific colors from images. The recognized colors include Red, Green, Yellow, Blue, White, Black, and Gray. The project is implemented using FastAPI for the backend and is containerized using Docker for easy deployment.
+Welcome to the **Color-Recognition** project! This project utilizes the K-means clustering algorithm to detect and recognize dominant color from images. The recognized colors include Red, Green, Yellow, Blue, White, Black, and Gray. The project is implemented using FastAPI for the backend and is containerized using Docker for easy deployment.
 
 ## Table of Contents
 
@@ -39,3 +39,21 @@ Welcome to the **Color-Recognition** project! This project utilizes the K-means 
 ```bash
 git clone https://github.com/yourusername/Color-Recognition.git
 cd Color-Recognition
+```
+
+## Installation
+To start the FastAPI server
+```bash
+cd app
+uvicorn main:app --host 0.0.0.0 --port 8080
+```
+
+### Docker Deployment
+To build and run the Docker container, follow these steps:
+
+```bash
+docker build -t color-recognition
+docker run -d -p 8000:8000 color-recognition
+```
+
+
