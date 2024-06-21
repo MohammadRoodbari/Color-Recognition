@@ -29,4 +29,4 @@ def predict():
     with Image.open(file_path) as img:
         color = get_colors(img)
 
-    return {"message": f"Successfully uploaded {color}"}
+    return {"message": f" Color: {color}"}
