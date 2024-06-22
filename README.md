@@ -25,7 +25,7 @@ This project utilizes the K-means clustering algorithm to detect and recognize d
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Color-Recognition.git
+git clone https://github.com/MohammadRoodbari/Color-Recognition.git
 ```
 ```bash
 cd Color-Recognition
